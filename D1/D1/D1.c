@@ -13,7 +13,7 @@ int main(){
 	int numArr[itemNum];
 	printf("this is for des order \ninput three num: ");
 	for (int i = 0; i < itemNum; i++){
-		scanf("%d", &numArr[i]);
+		scanf_s("%d", &numArr[i]);
 	}
 
 	//bubble sort
@@ -27,5 +27,5 @@ int main(){
 	for (int i = 0; i < itemNum; i++)
 		printf("%d ", numArr[i]);
 
-	system("pause");
+	getch();
 }
