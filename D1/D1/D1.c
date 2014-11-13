@@ -10,6 +10,7 @@ int fun_exchangeNum(int *a, int *b) {
 }
 
 int main(){
+	//test
 	int numArr[itemNum];
 	printf("this is for des order \ninput three num: ");
 	for (int i = 0; i < itemNum; i++){
